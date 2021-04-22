@@ -54,4 +54,5 @@ void seleccion(int vector[], int n) {
 	for (int i = n; i > 0; i--) {
 		pos_max = maximo(vector, i);
 		swap(&vector[pos_max], &vector[i-1]);
+	}
 }
