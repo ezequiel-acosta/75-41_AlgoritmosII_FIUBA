@@ -56,5 +56,3 @@ void seleccion(int vector[], int n) {
 		swap(&vector[pos_max], &vector[i-1]);
 	}
 }
-
-//FIN
